@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100vh;
+  background-color: #0F0E0E;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  background-color: #0F0E0E;
+  color: #E0E2DB;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.logoText {
+  color: #d35e5d;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-shadow: 0 0 10px rgba(211, 94, 93, 0.55);
+}
+
+#app {
+  display: grid;
+  grid-template-rows: 6rem auto 2rem;
+}
+
+.appContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+}
+.appContent h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.appContent .ip {
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+}
+
+.footer {
+  text-align: center;
+}
+
+.designed a {
+  transition-duration: 200ms;
+}
+.designed a:hover {
+  opacity: 0.8;
+}
+
+.location {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.browser {
+  margin-bottom: 2rem;
+}
+
+.text-glow {
+  text-shadow: 0 0 80px rgba(192, 219, 255, 0.75), 0 0 32px rgba(65, 120, 255, 0.24);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #e96443, #904e95);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*# sourceMappingURL=index.4a508c1d.css.map */
